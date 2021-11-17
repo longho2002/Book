@@ -1,0 +1,15 @@
+C:\Users\Thai_Long\source\repos\ConsoleApp12\ConsoleApp12\bin\Debug\net6.0\ConsoleApp12.exe
+C:\Users\Thai_Long\source\repos\ConsoleApp12\ConsoleApp12\bin\Debug\net6.0\ConsoleApp12.deps.json
+C:\Users\Thai_Long\source\repos\ConsoleApp12\ConsoleApp12\bin\Debug\net6.0\ConsoleApp12.runtimeconfig.json
+C:\Users\Thai_Long\source\repos\ConsoleApp12\ConsoleApp12\bin\Debug\net6.0\ConsoleApp12.dll
+C:\Users\Thai_Long\source\repos\ConsoleApp12\ConsoleApp12\bin\Debug\net6.0\ref\ConsoleApp12.dll
+C:\Users\Thai_Long\source\repos\ConsoleApp12\ConsoleApp12\bin\Debug\net6.0\ConsoleApp12.pdb
+C:\Users\Thai_Long\source\repos\ConsoleApp12\ConsoleApp12\obj\Debug\net6.0\ConsoleApp12.csproj.AssemblyReference.cache
+C:\Users\Thai_Long\source\repos\ConsoleApp12\ConsoleApp12\obj\Debug\net6.0\ConsoleApp12.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Thai_Long\source\repos\ConsoleApp12\ConsoleApp12\obj\Debug\net6.0\ConsoleApp12.AssemblyInfoInputs.cache
+C:\Users\Thai_Long\source\repos\ConsoleApp12\ConsoleApp12\obj\Debug\net6.0\ConsoleApp12.AssemblyInfo.cs
+C:\Users\Thai_Long\source\repos\ConsoleApp12\ConsoleApp12\obj\Debug\net6.0\ConsoleApp12.csproj.CoreCompileInputs.cache
+C:\Users\Thai_Long\source\repos\ConsoleApp12\ConsoleApp12\obj\Debug\net6.0\ConsoleApp12.dll
+C:\Users\Thai_Long\source\repos\ConsoleApp12\ConsoleApp12\obj\Debug\net6.0\ref\ConsoleApp12.dll
+C:\Users\Thai_Long\source\repos\ConsoleApp12\ConsoleApp12\obj\Debug\net6.0\ConsoleApp12.pdb
+C:\Users\Thai_Long\source\repos\ConsoleApp12\ConsoleApp12\obj\Debug\net6.0\ConsoleApp12.genruntimeconfig.cache
