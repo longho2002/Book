@@ -7,18 +7,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp12
 {
-    public struct book
-    {
-        public string maSach; //MS01
-        public string tenSach; //
-        public string TacGia; // nguyen quoc trung
-        public string ChuDe; //
-        public string NXB; // 
-        public int price;
-        public string vt; // vitri // A-1 split('-') tryParse
-        public DateTime NgXB;
-        public string imgSrc;
-    }
+   
     public class ListBook
     {
 
@@ -147,13 +136,13 @@ namespace ConsoleApp12
             while (p != null)
             {
                 Console.WriteLine("Quyển sách thứ {0}", i++);
-                Console.WriteLine("Mã sách: {0}", p.Data.maSach);
-                Console.WriteLine("Tên sách: {0}", p.Data.tenSach);
+                Console.WriteLine("Mã sách: {0}", p.Data.MaSach);
+                Console.WriteLine("Tên sách: {0}", p.Data.TenSach);
                 Console.WriteLine("Tác giả: {0}", p.Data.TacGia);
                 Console.WriteLine("Chủ đề {0}", p.Data.ChuDe);
                 Console.WriteLine("Nhà xuất bản: {0}", p.Data.NXB);
-                Console.WriteLine("Giá bán: {0}", p.Data.price);
-                Console.WriteLine("Vị trí: {0}", p.Data.vt);
+                Console.WriteLine("Giá bán: {0}", p.Data.Price);
+                Console.WriteLine("Vị trí: {0}", p.Data.VT);
                 Console.WriteLine("Ngày xuất bản: " + p.Data.NgXB.Day +"/" + p.Data.NgXB.Month + "/" 
                     + p.Data.NgXB.Year);
                 p = p.Next;

@@ -9,21 +9,10 @@ namespace ConsoleApp12
 
     public static class Program
     {
-
         public static void Main()
         {
             ListBook a = new ListBook();
-            book temp = new book();
-            temp.maSach = "001";
-            temp.tenSach = "Nhà giả kim";
-            temp.TacGia = "Quốc Trung";
-            temp.ChuDe = "Triết học";
-            temp.NXB = "Kim Đồng";
-            temp.price = 290000;
-            temp.vt = "A-03";
-            temp.imgSrc = "C:/Users/Thai_Long/Downloads/giakim.jpg";
-            temp.NgXB = new DateTime(2019, 1, 1);
-            a.Push(temp);
+            a.Push(new book("001", "Nhà giả kim", "Quốc Trung", "Triết học", "Kim Đồng", 290000, "A-03",  new DateTime(2019, 1, 1),""));
             a.Display();
             Console.ReadKey();
         }
