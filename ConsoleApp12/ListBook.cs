@@ -21,36 +21,8 @@ namespace ConsoleApp12
     }
     public class ListBook
     {
-        protected class Node
-        {
-            private Node next;
-            private book data;
-
-            public Node()
-            {
-
-            }
-            public Node(book t)
-            {
-                next = null;
-                data = t;
-            }
-
-            public Node Next
-            {
-                get { return next; }
-                set { next = value; }
-            }
-
-            public book Data
-            {
-                get { return data; }
-                set { data = value; }
-            }
-        }
 
         protected Node root = new Node();
-
         public ListBook()
         {
             this.root = null;
@@ -60,7 +32,10 @@ namespace ConsoleApp12
             this.root.Data = t;
             this.root.Next = null;
         }
-
+        public Node getRoot()
+        {
+            return this.root;
+        }
         public void Push(book t) // them vao cuoi
         {
             Node tmp = new Node();
@@ -78,7 +53,6 @@ namespace ConsoleApp12
                 q.Next = tmp;
             }
         }
-
         public void PushBack(book t)
         {
             if (this.root != null)
@@ -91,7 +65,6 @@ namespace ConsoleApp12
                 this.root = tmp;
             }
         }
-
         public int Len()
         {
             int l = 0;
@@ -104,7 +77,6 @@ namespace ConsoleApp12
 
             return l;
         }
-
         public void Add(book t, int index)
         {
             int n = Len();
@@ -128,7 +100,6 @@ namespace ConsoleApp12
                 p.Next = tmp;
             }
         }
-
         public void Remove(int index)
         {
             int n = Len();
@@ -156,7 +127,6 @@ namespace ConsoleApp12
                 p = null;
             }
         }
-
         public book GetBook(int index)
         {
             Node q = this.root;
@@ -170,7 +140,6 @@ namespace ConsoleApp12
             b = q.Data;
             return b;
         }
-
         public void Display()
         {
             Node p = this.root;
